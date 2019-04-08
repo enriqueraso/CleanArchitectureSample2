@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics.CodeAnalysis;
 using CleanArchitectureSample2.Entities;
 using CleanArchitectureSample2.UseCases.Interactors;
 using CleanArchitectureSample2.UseCases.Interfaces;
@@ -9,7 +8,6 @@ using Assert = NUnit.Framework.Assert;
 
 namespace CleanArchitectureSample2.UseCases.UnitTests
 {
-    [ExcludeFromCodeCoverage]
     [TestFixture]
     public class GetWeatherInteractorUnitTests
     {
